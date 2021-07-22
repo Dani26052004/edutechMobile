@@ -1,0 +1,22 @@
+<meta charset="UTF-8">
+
+<script>
+
+    var primeiraNota = parseInt(prompt("Qual sua primeiraNota?"))
+
+    var segundaNota = parseInt(prompt("Qual sua segundaNota?"))
+
+    var terceiraNota= parseInt( prompt(" Qual sua terceiraNota"))
+
+    if ((primeiraNota + segundaNota + terceiraNota) / 3 >= 6 && (primeiraNota + segundaNota + terceiraNota) / 3  <10 ) {
+        document.write ("Você foi aprovado")}
+
+    if ((primeiraNota + segundaNota + terceiraNota) / 3 < 6) {
+        document.write ("Você foi reprovado")}
+
+    if ((primeiraNota + segundaNota + terceiraNota) / 3 == 10){
+        document.write ( "Você foi aprovado com distinção")}
+
+</script>
+
+
